@@ -141,3 +141,4 @@ print(MSET(y_test, y_pred))
 
 #Plot de las diferencias entre nuestras y_test y y_pred
 plt.plot([x-y for x, y in zip(y_test, y_pred)])
+plt.show()
